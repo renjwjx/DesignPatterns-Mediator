@@ -12,6 +12,12 @@
 		EE2CFE5D20A10DC800ADFC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFE5C20A10DC800ADFC29 /* Assets.xcassets */; };
 		EE2CFE6020A10DC800ADFC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFE5E20A10DC800ADFC29 /* Main.storyboard */; };
 		EE2CFE6320A10DC800ADFC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE6220A10DC800ADFC29 /* main.m */; };
+		EE2CFE6C20A10DDE00ADFC29 /* DialogDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE6B20A10DDE00ADFC29 /* DialogDirector.m */; };
+		EE2CFE6F20A10DF000ADFC29 /* Widget.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE6E20A10DF000ADFC29 /* Widget.m */; };
+		EE2CFE7220A10E0200ADFC29 /* ListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE7120A10E0200ADFC29 /* ListBox.m */; };
+		EE2CFE7520A10E0E00ADFC29 /* EntryField.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE7420A10E0E00ADFC29 /* EntryField.m */; };
+		EE2CFE7820A10E2300ADFC29 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE7720A10E2300ADFC29 /* Button.m */; };
+		EE2CFE7B20A10E3500ADFC29 /* FontDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFE7A20A10E3500ADFC29 /* FontDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,18 @@
 		EE2CFE6120A10DC800ADFC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2CFE6220A10DC800ADFC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE2CFE6420A10DC800ADFC29 /* DesignPatterns_Mediator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_Mediator.entitlements; sourceTree = "<group>"; };
+		EE2CFE6A20A10DDE00ADFC29 /* DialogDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogDirector.h; sourceTree = "<group>"; };
+		EE2CFE6B20A10DDE00ADFC29 /* DialogDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogDirector.m; sourceTree = "<group>"; };
+		EE2CFE6D20A10DF000ADFC29 /* Widget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Widget.h; sourceTree = "<group>"; };
+		EE2CFE6E20A10DF000ADFC29 /* Widget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Widget.m; sourceTree = "<group>"; };
+		EE2CFE7020A10E0200ADFC29 /* ListBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBox.h; sourceTree = "<group>"; };
+		EE2CFE7120A10E0200ADFC29 /* ListBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListBox.m; sourceTree = "<group>"; };
+		EE2CFE7320A10E0E00ADFC29 /* EntryField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryField.h; sourceTree = "<group>"; };
+		EE2CFE7420A10E0E00ADFC29 /* EntryField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryField.m; sourceTree = "<group>"; };
+		EE2CFE7620A10E2300ADFC29 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		EE2CFE7720A10E2300ADFC29 /* Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		EE2CFE7920A10E3500ADFC29 /* FontDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontDialog.h; sourceTree = "<group>"; };
+		EE2CFE7A20A10E3500ADFC29 /* FontDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontDialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,18 @@
 		EE2CFE5520A10DC800ADFC29 /* DesignPatterns-Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				EE2CFE6A20A10DDE00ADFC29 /* DialogDirector.h */,
+				EE2CFE6B20A10DDE00ADFC29 /* DialogDirector.m */,
+				EE2CFE7920A10E3500ADFC29 /* FontDialog.h */,
+				EE2CFE7A20A10E3500ADFC29 /* FontDialog.m */,
+				EE2CFE6D20A10DF000ADFC29 /* Widget.h */,
+				EE2CFE6E20A10DF000ADFC29 /* Widget.m */,
+				EE2CFE7020A10E0200ADFC29 /* ListBox.h */,
+				EE2CFE7120A10E0200ADFC29 /* ListBox.m */,
+				EE2CFE7320A10E0E00ADFC29 /* EntryField.h */,
+				EE2CFE7420A10E0E00ADFC29 /* EntryField.m */,
+				EE2CFE7620A10E2300ADFC29 /* Button.h */,
+				EE2CFE7720A10E2300ADFC29 /* Button.m */,
 				EE2CFE5620A10DC800ADFC29 /* AppDelegate.h */,
 				EE2CFE5720A10DC800ADFC29 /* AppDelegate.m */,
 				EE2CFE5920A10DC800ADFC29 /* ViewController.h */,
@@ -140,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2CFE7520A10E0E00ADFC29 /* EntryField.m in Sources */,
+				EE2CFE7B20A10E3500ADFC29 /* FontDialog.m in Sources */,
+				EE2CFE6F20A10DF000ADFC29 /* Widget.m in Sources */,
 				EE2CFE5B20A10DC800ADFC29 /* ViewController.m in Sources */,
 				EE2CFE6320A10DC800ADFC29 /* main.m in Sources */,
+				EE2CFE7220A10E0200ADFC29 /* ListBox.m in Sources */,
 				EE2CFE5820A10DC800ADFC29 /* AppDelegate.m in Sources */,
+				EE2CFE6C20A10DDE00ADFC29 /* DialogDirector.m in Sources */,
+				EE2CFE7820A10E2300ADFC29 /* Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

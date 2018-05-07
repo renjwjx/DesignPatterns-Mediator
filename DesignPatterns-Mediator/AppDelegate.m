@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FontDialog.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    FontDialog* fontDiag = [[FontDialog alloc] init];
+    [fontDiag createWidgets];
+    [fontDiag.button buttonPressed];
+    [fontDiag.listBox setList];
 }
 
 
